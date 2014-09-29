@@ -4,6 +4,8 @@ platform :ios, "7.0"
 target "DenunciaLaCorrupcion" do
 
 pod 'AFNetworking', '~> 2.4'
+pod 'SWRevealViewController', '~> 2.0.0'
+pod 'BlurryModalSegue'
 
 end
 

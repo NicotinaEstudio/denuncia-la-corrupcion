@@ -14,7 +14,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F84D7EC95604F80F0DA68DD992385C8903C40C0A</key>
-		<string>denuncia-la-corrupcion/</string>
+		<string>denuncia-la-corrupcion</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/NicotinaEstudio/denuncia-la-corrupcion.git</string>

@@ -9,6 +9,26 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-DenunciaLaCorrupcion-BlurryModalSegue.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DenunciaLaCorrupcion-MZAppearance.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DenunciaLaCorrupcion-SWRevealViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DenunciaLaCorrupcion-UIImage+BlurredFrame.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DenunciaLaCorrupcion.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>179CC8B27AE345D58BF1101E</key>
+		<key>0F6BDA8256524171BB7BBFE5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29AFBB44380641F8AABE9858</key>
+		<key>274DF383452B4970AFDEACBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5382B29F933C459C9A69498A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DBF59DE86984CE998CFCF06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>80B8FEFEE950425C80333E3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C590821A25C6420AAE610E31</key>
 		<dict>
 			<key>primary</key>
 			<true/>

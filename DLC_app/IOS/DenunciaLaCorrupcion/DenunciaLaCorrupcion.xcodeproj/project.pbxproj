@@ -11,11 +11,11 @@
 		D61CA2B019D98FD200F571D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D61CA2AF19D98FD200F571D5 /* main.m */; };
 		D61CA2B319D98FD200F571D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D61CA2B219D98FD200F571D5 /* AppDelegate.m */; };
 		D61CA2B619D98FD200F571D5 /* DenunciaLaCorrupcion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D61CA2B419D98FD200F571D5 /* DenunciaLaCorrupcion.xcdatamodeld */; };
-		D61CA2B919D98FD200F571D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61CA2B819D98FD200F571D5 /* ViewController.m */; };
 		D61CA2BC19D98FD200F571D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61CA2BA19D98FD200F571D5 /* Main.storyboard */; };
 		D61CA2BE19D98FD200F571D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61CA2BD19D98FD200F571D5 /* Images.xcassets */; };
 		D61CA2C119D98FD200F571D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D61CA2BF19D98FD200F571D5 /* LaunchScreen.xib */; };
 		D61CA2CD19D98FD200F571D5 /* DenunciaLaCorrupcionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D61CA2CC19D98FD200F571D5 /* DenunciaLaCorrupcionTests.m */; };
+		D6AD6F3719D9BD6F00ED7E49 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AD6F3619D9BD6F00ED7E49 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +37,14 @@
 		D61CA2B119D98FD200F571D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D61CA2B219D98FD200F571D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D61CA2B519D98FD200F571D5 /* DenunciaLaCorrupcion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DenunciaLaCorrupcion.xcdatamodel; sourceTree = "<group>"; };
-		D61CA2B719D98FD200F571D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D61CA2B819D98FD200F571D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D61CA2BB19D98FD200F571D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D61CA2BD19D98FD200F571D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D61CA2C019D98FD200F571D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D61CA2C619D98FD200F571D5 /* DenunciaLaCorrupcionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenunciaLaCorrupcionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61CA2CB19D98FD200F571D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D61CA2CC19D98FD200F571D5 /* DenunciaLaCorrupcionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DenunciaLaCorrupcionTests.m; sourceTree = "<group>"; };
+		D6AD6F3519D9BD6F00ED7E49 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D6AD6F3619D9BD6F00ED7E49 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,13 +97,14 @@
 		D61CA2AC19D98FD200F571D5 /* DenunciaLaCorrupcion */ = {
 			isa = PBXGroup;
 			children = (
-				D61CA2B719D98FD200F571D5 /* ViewController.h */,
-				D61CA2B819D98FD200F571D5 /* ViewController.m */,
 				D61CA2BA19D98FD200F571D5 /* Main.storyboard */,
 				D61CA2BD19D98FD200F571D5 /* Images.xcassets */,
 				D61CA2BF19D98FD200F571D5 /* LaunchScreen.xib */,
 				D61CA2B419D98FD200F571D5 /* DenunciaLaCorrupcion.xcdatamodeld */,
+				D6AD6F3119D9A93A00ED7E49 /* Model */,
 				D61CA2AD19D98FD200F571D5 /* Supporting Files */,
+				D6AD6F3519D9BD6F00ED7E49 /* MainViewController.h */,
+				D6AD6F3619D9BD6F00ED7E49 /* MainViewController.m */,
 			);
 			path = DenunciaLaCorrupcion;
 			sourceTree = "<group>";
@@ -134,6 +135,13 @@
 				D61CA2CB19D98FD200F571D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6AD6F3119D9A93A00ED7E49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +281,8 @@
 			files = (
 				D61CA2B619D98FD200F571D5 /* DenunciaLaCorrupcion.xcdatamodeld in Sources */,
 				D61CA2B319D98FD200F571D5 /* AppDelegate.m in Sources */,
-				D61CA2B919D98FD200F571D5 /* ViewController.m in Sources */,
 				D61CA2B019D98FD200F571D5 /* main.m in Sources */,
+				D6AD6F3719D9BD6F00ED7E49 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
