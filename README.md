@@ -9,18 +9,27 @@ El presente proyecto es un prototipo funcional para la final del Reto **#Denunci
 
 ##Tecnología
 
-La APP móvil de este protitipo está desarrollada para iPhone (IOS 7 y 8).
+La APP móvil de este protitipo está desarrollada para iPhone (IOS 7 y 8). Utilizamos Ccocoapods como manejador de dependencias para manter el código más limpio y fácil de utilizar.
 
 En su Backend **Denuncia La Corrupción** está desarrollado con Java utilizando el framework Spring MVC, una base de datos PostgreSQL, se utliza Heroku como servidor de aplicaciones, Amazon S3 para el alamacenamiento de las fotografías y video y Amazon SNS para las notificaciones PUSH.
 
 ##Funcionamiento
-**Denuncia La Corrupción** realiza la denuncia del servidor público mediante la aplicación móvil de forma sencilla, seleccionando de una lista al servidor público que se va a denunciar, seleccionando de una lista la causa por la que se va a denuncias al servidor públic y adjuntando evidencias (imagen, video y audio). La denuncia se puede hacer de forma anónima o agregando sus dados personales.
+**Denuncia La Corrupción** realiza la denuncia del servidor público mediante la aplicación móvil de forma sencilla, seleccionando de una lista al servidor público que se va a denunciar, seleccionando de una lista la causa por la que se va a denuncias al servidor público y adjuntando evidencias (imagen, video y audio). La denuncia se puede hacer de forma anónima o agregando sus dados personales.
 
 Desde el administrador (Backend) se da seguimiento a la denuncia pudiendo el admisnitrador del sistema agregar anotaciones y cambiar el estatus de la misma enviandocele automáticamente notifiacciones al usuario mediate Notificaciones Push y correo electrónico sobre el cambio de estatus de su denuncia.
 
 Al darce de alta una denuncia se genera un código QR el cual puede ser escaneado desde la APP de denuncia la corrupción para darle seguimiento a la denuncia de forma rápida.
 
 ##Dependencias
+**IOS**
+- AFNetworking
+- AWSiOSSDKv2
+- AWSCognitoSync
+- SWRevealViewController 2.3.0
+- BlurryModalSegue
+- Google-Maps-iOS-SDK
+
+**BACKEND**
 - Spring MVC 4.1.1.RELEASE
 - Hibernate 3.6.10.Final
 - PostgreSQL 9.1-901-1.jdbc4
