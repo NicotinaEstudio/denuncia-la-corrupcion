@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "7.0"
+
+target "DenunciaLaCorrupcion" do
+pod 'AFNetworking'
+pod 'AWSiOSSDKv2'
+pod 'AWSCognitoSync'
+pod 'SWRevealViewController', '2.3.0'
+pod 'BlurryModalSegue'
+pod 'Google-Maps-iOS-SDK'
+end
+
+target "DenunciaLaCorrupcionTests" do
+
+end
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Denuncia" representedClassName="Denuncia" syncable="YES">
+        <attribute name="calle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="causa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correoElectronico" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delegacion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="esAnonima" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="estatus" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fechaAlta" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fraccionamiento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="lada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lugarHechos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numExterior" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numInterno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spDomicilioDependencia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spLugarTrabajo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spNombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spPuesto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuarioUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="evidencia" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Evidencia" inverseName="denuncia" inverseEntity="Evidencia" syncable="YES"/>
+    </entity>
+    <entity name="Evidencia" representedClassName="Evidencia" syncable="YES">
+        <attribute name="archivo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estatus" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="denuncia" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Denuncia" inverseName="evidencia" inverseEntity="Denuncia" syncable="YES"/>
+    </entity>
+    <entity name="ServidorPublico" representedClassName="ServidorPublico" syncable="YES">
+        <attribute name="cargo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="domicilio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trabajo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES">
+        <attribute name="correoElectronico" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="esRegistrado" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Denuncia" positionX="-1910" positionY="-153" width="128" height="403"/>
+        <element name="Evidencia" positionX="-1712" positionY="-18" width="128" height="118"/>
+        <element name="Usuario" positionX="-2115" positionY="-18" width="128" height="133"/>
+        <element name="ServidorPublico" positionX="-2115" positionY="155" width="128" height="103"/>
+    </elements>
+</model>

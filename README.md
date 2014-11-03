@@ -48,7 +48,7 @@ Como todas las dependencias se encuentran en el archívo pom.xml solo se requier
 
 ##Screenshots
 ![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/denuncias.jpg)
-![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/denuncias-detalle.jpg)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/denuncia-detalle.jpg)
 
 ##Demo
 - [http://denuncia-la-corrupcion.herokuapp.com](http://denuncia-la-corrupcion.herokuapp.com)
