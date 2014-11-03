@@ -5,20 +5,20 @@ README Denuncia La Corrupción
 El presente proyecto es un prototipo funcional para la final del Reto **#DenunciaLaCorrupcion** y es desarrollado por [Nicotina Estudio](http://www.nicotinaestudio.com). 
 
 ##Descripción
-**Denuncia La Corrupción** es una aplicación móvil que permite a los ciudadanos hacer denuncias de servidores publicos de forma fácil, rápida y segura.
+**Denuncia La Corrupción** es una aplicación móvil que permite a los ciudadanos hacer denuncias de servidores públicos de forma fácil, rápida y segura.
 
 ##Tecnología
 
-La APP móvil de este protitipo está desarrollada para iPhone (IOS 7 y 8). Utilizamos Ccocoapods como manejador de dependencias para manter el código más limpio y fácil de utilizar.
+La APP móvil de este prototipo está desarrollada para iPhone (IOS 7 y 8). Utilizamos Cocoapods como manejador de dependencias para manter el código más limpio y fácil de utilizar.
 
-En su Backend **Denuncia La Corrupción** está desarrollado con Java utilizando el framework Spring MVC, una base de datos PostgreSQL, se utliza Heroku como servidor de aplicaciones, Amazon S3 para el alamacenamiento de las fotografías y video y Amazon SNS para las notificaciones PUSH.
+En su Backend **Denuncia La Corrupción** está desarrollado con Java utilizando el framework Spring MVC, una base de datos PostgreSQL, se utiliza Heroku como servidor de aplicaciones, Amazon S3 para el almacenamiento de las fotografías y video y Amazon SNS para las notificaciones PUSH.
 
 ##Funcionamiento
 **Denuncia La Corrupción** realiza la denuncia del servidor público mediante la aplicación móvil de forma sencilla, seleccionando de una lista al servidor público que se va a denunciar, seleccionando de una lista la causa por la que se va a denuncias al servidor público y adjuntando evidencias (imagen, video y audio). La denuncia se puede hacer de forma anónima o agregando sus dados personales.
 
-Desde el administrador (Backend) se da seguimiento a la denuncia pudiendo el admisnitrador del sistema agregar anotaciones y cambiar el estatus de la misma enviandocele automáticamente notifiacciones al usuario mediate Notificaciones Push y correo electrónico sobre el cambio de estatus de su denuncia.
+Desde el administrador (Backend) se da seguimiento a la denuncia pudiendo el administrador del sistema agregar anotaciones y cambiar el estatus de la misma enviándosele automáticamente notificaciones al usuario mediante Notificaciones Push y correo electrónico sobre el cambio de estatus de su denuncia.
 
-Al darce de alta una denuncia se genera un código QR el cual puede ser escaneado desde la APP de denuncia la corrupción para darle seguimiento a la denuncia de forma rápida.
+Al darse de alta una denuncia se genera un código QR el cual puede ser escaneado desde la APP de denuncia la corrupción para darle seguimiento a la denuncia de forma rápida.
 
 ##Dependencias
 **IOS**
@@ -47,7 +47,8 @@ Como todas las dependencias se encuentran en el archívo pom.xml solo se requier
 - Publicar hacia la APP ($git push heroku master)
 
 ##Screenshots
-![alt tag](#)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/denuncias.jpg)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/denuncias-detalle.jpg)
 
 ##Demo
 - [http://denuncia-la-corrupcion.herokuapp.com](http://denuncia-la-corrupcion.herokuapp.com)
