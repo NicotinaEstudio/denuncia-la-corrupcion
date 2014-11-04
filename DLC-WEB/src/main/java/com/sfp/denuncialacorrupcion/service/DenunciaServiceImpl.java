@@ -88,7 +88,7 @@ public class DenunciaServiceImpl implements DenunciaService
 
 		OutputStream output = fileout;
 
-		qrService.generarCodigoQR(200, 200, "http://denuncia-la-corrupcion.herokuapp.com/denuncia/" + denuncia.getId(), output);
+		qrService.generarCodigoQR(200, 200, "http://denuncia-la-corrupcion.herokuapp.com/home/administrador/denuncia/" + denuncia.getId(), output);
 
 		// Subimos a Amazon
 		AmazonS3 s3client = new AmazonS3Client(new ClasspathPropertiesFileCredentialsProvider()); 

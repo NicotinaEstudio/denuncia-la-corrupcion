@@ -49,9 +49,15 @@ Como todas las dependencias se encuentran en el archívo pom.xml solo se requier
 ##Screenshots
 ![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/denuncias.jpg)
 ![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/denuncia-detalle.jpg)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/DLC-1.png)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/DLC-2.png)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/DLC-3.png)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/DLC-4.png)
+![alt tag](https://s3.amazonaws.com/nicotina-estudio/retos-publicos/DLC-5.png)
 
 ##Demo
 - [http://denuncia-la-corrupcion.herokuapp.com](http://denuncia-la-corrupcion.herokuapp.com)
+- [Screencast](https://www.youtube.com/watch?v=zpINP2FTnOY)
 
 ##¿Preguntas o problemas? 
 Mantenemos la conversación del proyecto en nuestra página de problemas [issues] (https://github.com/NicotinaEstudio/denuncia-la-corrupcion/issues). Si usted tiene cualquier otra pregunta, nos puede contactar por correo <soporte@nicotinaestudio.mx>.
