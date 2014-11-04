@@ -59,6 +59,9 @@ Como todas las dependencias se encuentran en el archívo pom.xml solo se requier
 - [http://denuncia-la-corrupcion.herokuapp.com](http://denuncia-la-corrupcion.herokuapp.com)
 - [Screencast](https://www.youtube.com/watch?v=zpINP2FTnOY)
 
+##IPA
+- [Archivo IPA](http://install.diawi.com/otoqPJ)
+
 ##¿Preguntas o problemas? 
 Mantenemos la conversación del proyecto en nuestra página de problemas [issues] (https://github.com/NicotinaEstudio/denuncia-la-corrupcion/issues). Si usted tiene cualquier otra pregunta, nos puede contactar por correo <soporte@nicotinaestudio.mx>.
 
